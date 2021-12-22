@@ -1,0 +1,111 @@
+.navbar-brand {
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar-nav {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+}
+
+.nav-link {
+  margin-right: 30px;
+  color: rgb(255, 255, 255);
+}
+
+.jumbotron {
+  background: url(img/robot1.jpg) no-repeat center;
+  background-size: cover;
+  padding-top: 25%;
+  padding-bottom: 25%;
+  margin-top: 70px;
+}
+
+.direct {
+  margin-right: 30px;
+  color: white;
+}
+
+.aplikasi {
+  display: inline-block;
+  border-radius: 50%;
+  width: 200px;
+  margin: auto;
+  height: 200px;
+  color: rgb(255, 255, 255);
+  background-color: black;
+}
+
+.aplikasi i {
+  position: relative;
+  top: 30px;
+}
+
+.apk a {
+  font-size: 25px;
+  font-weight: 500;
+  color: rgb(29, 42, 165);
+}
+
+.apk {
+  background-color: rgb(75, 96, 145);
+}
+
+.exe {
+  color: white;
+}
+
+.orange {
+  color: orange;
+  text-decoration: underline;
+}
+
+.vpn {
+  color: orange;
+  text-decoration: underline;
+}
+
+.vpn1 {
+  background-color: rgb(30, 46, 83);
+}
+
+.card img {
+  height: 200px;
+  width: 100%;
+}
+
+.card-body {
+  background-color: orange;
+  color: white;
+}
+
+.card-title {
+  font-weight: 800;
+  color: black;
+}
+
+footer {
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+
+/* KHUSUS MOBILE */
+@media (max-width: 991.98px) {
+  .mobile {
+    margin-top: 27px;
+  }
+
+  .direct {
+    margin-top: 30px;
+  }
+}
+
+/* KHUSUS DESKTOP */
+@media (min-width: 992px) {
+  .hs-busines {
+    margin-top: 25px;
+  }
+}
